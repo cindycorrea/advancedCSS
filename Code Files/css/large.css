@@ -1,0 +1,11 @@
+@media only screen and (min-width: 700px) {
+    body div {
+        display: grid;
+        grid-template-columns: 15em 1fr;
+    }
+
+    header {
+        grid-column-start: 1;
+    }
+
+}

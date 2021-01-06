@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+body {
+    background-color: #FAEBD7;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #6495ED;
+}
+
+header a:visited,
+nav a:link {
+    color: #FAEBD7;
+}
+
+article h2 a:link,
+article h2 a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #DEB887;
+}
+
+header {
+    background-color: #6495ED;
+    color: #FAEBD7;
+    text-align: right;
+    padding: 2em;
+    margin: -.5em;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    padding: .5em
+}
+
+/*header a:visited,
+nav a:link {
+    color: #FAEBD7;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}*/
+
+article {
+    background-color: white;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: 2px 7px 7px rgba(0, 0, 0, .15);
+}
+
+/*article h2 a:link,
+article h2 a:visited {
+    color: black;
+}*/
+
+article figure img {
+    display: block;
+    margin: 4em auto auto;
+}
